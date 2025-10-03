@@ -57,7 +57,7 @@ STOP_CHARGE_THRESH_BAT0=80  --at this point, battery will stop charging
 
  
  
- #For checking the the services are working or not if not then reload daemon and reload it
+ #For checking the the services are working or not if not then reload daemon 
  
  **lsusb**
  
@@ -80,14 +80,23 @@ NOW COMES THE GOOD PART
 
 AND FOR SUPERGFXCTL 
 
-supergfxctl               --use this command for also modes and options
+**supergfxctl**               *use this command for also modes and options*
+
 
 common used modes  -->
 
-supergfxctl -m Integrated       --only igpu(amd or intel) and not dedicated gpu (nvidia or amd) mostly for battery
-supergfxctl -m Hybrid           --both igpu and dedicated gpu it gonna select according to use
-supergfxctl -m VFIO             --For bypass for vm mostly used for qmeu and virt-manager for tuning for vm   
-supergfxctl -m Dedicated        --only dedicated gpu (nvidia or amd) and not igpu (amd or intel) 
+
+**supergfxctl -m Integrated**       *only igpu(amd or intel) and not dedicated gpu (nvidia or amd) mostly for battery*
+
+**supergfxctl -m Hybrid**           *both igpu and dedicated gpu it gonna select according to use*
+
+
+**supergfxctl -m VFIO**             *For bypass for vm mostly used for qmeu and virt-manager for tuning for vm*
+
+
+**supergfxctl -m Dedicated**        *only dedicated gpu (nvidia or amd) and not igpu (amd or intel)*
+
+
 
 there are other modes also but it gonna fit according to use
 
