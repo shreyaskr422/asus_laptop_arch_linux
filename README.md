@@ -71,8 +71,11 @@ STOP_CHARGE_THRESH_BAT0=80  --at this point, battery will stop charging
 
 NOW COMES THE GOOD PART 
 
- asusctl                   --use this for modes and help
- asusctl aura static       --this command is for the aura static settings you have in windows 11 or 10 whatever
+ **asusctl**                   *use this for modes and help*
+ 
+ **asusctl aura static**       *this command is for the aura static settings you have in windows 11 or 10 whatever*
+
+
 
 
 AND FOR SUPERGFXCTL 
