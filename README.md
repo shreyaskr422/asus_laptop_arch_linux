@@ -107,5 +107,11 @@ common used modes  -->
 
 
 
+*********FOR GUI CONTROL FROM ASUS CONTROL INSTALL ( rog-control-center ) FROM AUR MULTI REPO*********
+
+
+
+
+
 
  
