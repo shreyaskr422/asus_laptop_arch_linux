@@ -2,7 +2,8 @@
 packages and settings for asus laptops on arch linux
 
 
-1. tlp and tlp-rdw - for power settings
+**1. tlp and tlp-rdw** - *for power settings*
+
 As for config for tlp you find in /etc/tlp.conf
 
 uncomment these lines
@@ -19,8 +20,10 @@ STOP_CHARGE_THRESH_BAT0=80  --at this point, battery will stop charging
 
 
 
-2. asusctl  & supergfxctl - allows ROG & TUF laptop owners to control their laptops from a CLI
+**2. asusctl  & supergfxctl**   *allows ROG & TUF laptop owners to control their laptops from a CLI*
 
+ 
+ 
  **sudo systemctl enable --now asusd.service**
 
  **sudo systemctl enable --now supergfxd.service**
@@ -97,8 +100,6 @@ common used modes  -->
 **supergfxctl -m Dedicated**        *only dedicated gpu (nvidia or amd) and not igpu (amd or intel)*
 
 
-
-there are other modes also but it gonna fit according to use
 
 
 
