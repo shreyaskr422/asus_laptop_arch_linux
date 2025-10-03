@@ -9,8 +9,8 @@ As for config for tlp you find in /etc/tlp.conf
 *uncomment these lines*
 
 
-START_CHARGE_THRESH_BAT0=75  --at this point, battery will start charging
-STOP_CHARGE_THRESH_BAT0=80  --at this point, battery will stop charging
+START_CHARGE_THRESH_BAT0=75     --*at this point, battery will start charging*
+STOP_CHARGE_THRESH_BAT0=80      --*at this point, battery will stop charging*
 
 
 *Then*
